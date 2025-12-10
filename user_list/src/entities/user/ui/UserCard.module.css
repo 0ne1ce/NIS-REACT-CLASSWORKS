@@ -1,0 +1,47 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.info {
+  flex: 1;
+}
+
+.name {
+  margin: 0 0 4px 0;
+  font-size: 18px;
+  color: #1a1a1a;
+}
+
+.email {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.editBtn {
+  padding: 8px 16px;
+  background: #4a90d9;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+.editBtn:hover {
+  background: #357abd;
+}
+
+
