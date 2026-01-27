@@ -1,0 +1,2 @@
+export { useRandomMessages } from './useRandomMessages';
+
